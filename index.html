@@ -1,0 +1,95 @@
+<!DOCTYPE.html>
+<html>
+	<head>
+		<!--- Setting the viewport below-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<!--- Connects to the main CSS file-->
+		<link href="css/main.css" rel="stylesheet" type ="text/css">
+		<!--- Normalize CSS below, allows for same experience across browser compatibility-->
+		<link rel=“stylesheet” src=“//normalize-css.googlecode.com/svn/trunk/normalize.css”>
+		<!--- Connects to the style CSS file-->
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<!--- Connects to the bootstrap CSS file-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<!--- Connects to the font family in Google-->
+		<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+		<!--Links to the stylesheet for screens that are more than 500px-->	
+		<link rel="styelsheet" media="screen and (min-width:500px)" href="css/over500.css">
+		<!--- <script type="text/javascript" src="js/[JQuery file name]"></script> -->
+    	<!--- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+		<title>Samantha's Portfolio</title>
+	</head>
+
+	<body>
+	<div class="container">
+	<div class="grid">
+
+	    <section class="row header">
+	      <div class="col-2 logo">
+	        <img src="images/Canedy.png" class="img-responsive" alt="Canedy logo">
+	      </div>
+	      <div class="col-10 header_inner">
+	        <h1 class="text-right text-uppercase name">Samantha Canedy</h1>
+	        <h3 class="text-right text-uppercase name_title">Front-End Web Developer</h3>
+	      </div>
+	    </section>
+<!--- Horizontal Rule Here -->
+	    <div class="col-12">
+	    	<hr class="rule">
+	    </div>
+
+	    <section class="row">
+	      <div class="col-md-12">
+	        <img src="images/Portland_landscape.JPG" class="img-responsive image_main" alt="Portland Landscape">
+	      </div>
+	    </section>
+
+	    <section class="row">
+		    <div class="col-mid-12">
+		      <h3 class="featured_work">Featured Work</h3>
+		    </div>
+	    </section>
+
+	    <section class="row portfolio">
+	      <article class="col-4 work_1">
+	          <img src="images/Cape_Spear.jpg" class="img-responsive image_resume" data-toggle="modal" data-target="#project1" alt="Cape Spear">
+	          <h3 class="text-center featured_work_titles">Resume</h3>
+	          <button class="button_project1">Click Here</button>
+	      </article>
+
+	      <article class="col-4 work_2">
+	        <img src="images/IM CDA.JPG" class="img-responsive image_project" data-toggle="modal" data-target="#project2" alt="Coeur d'Alene Sunrise">
+	        <h3 class="text-center featured_work_titles">Projects</h3>
+	        <button class="button_project2">Click Here</button>
+	      </article>
+
+	      <article class="col-4 work_3">
+	        <img src="images/Diamondhead.jpg" class="img-responsive image_hobbies" data-toggle="modal" data-target="#project3" alt="Diamondhead Lookout">
+	        <h3 class="text-center featured_work_titles">Hobbies</h3>
+	        <button class="button_project3">Click Here</button>
+	      </article>
+	    </section>
+	    	<p>Thanks for checking out my work!</p>
+
+<!-- Modal -->
+	    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="images/Canedy.png">
+	                    This was my first project in this class. I learned a lot about HTML and CSS.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+  </div>
+  </div>
+</body>
+</html>

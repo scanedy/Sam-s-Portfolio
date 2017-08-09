@@ -1,0 +1,79 @@
+* {
+	background-color: #bec1c6;
+}
+hr {
+	
+}
+img {
+	padding: 10px;
+}
+.logo {
+	
+}
+.header_inner {
+	width: 70%;
+}
+.name {}
+.name_title {}
+.rule {
+	width: 100%;
+	color: #9ddc97;
+	display: block;
+}
+.image_main {
+	width: 100%;
+}
+/*Column Drop Pattern Below*/
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+}
+.work_1 {
+	width: 100%;
+}
+.work_2 {
+	width: 100%;
+}
+.work_3 {
+	width: 100%;
+}
+@media screen and (min-width: 450px) {
+	.work_1 {
+		width: 50%;
+	}
+	.work_2 {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 700px) {
+	.work_1 {
+		width: 33.3%;
+	}
+	.work_2 {
+		width: 33.3%;
+	}
+	.work_3 {
+		width: 33.3%;
+	}
+}
+
+.featured_work {
+	width: 100%;
+}
+.featured_work_titles {
+	width: 100%;
+}
+.image_resume {
+	width: 100%;
+}
+.image_project {
+	width: 100%;
+}
+.image_hobbies {
+	width: 100%;
+}
+/*Set's the minimum size of the buttons*/
+nav a, button {
+	min-width: 48px;
+	min-height: 48px;
+}
